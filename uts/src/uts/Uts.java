@@ -6,7 +6,7 @@ package uts;
 
 /**
  *
- * @author LAB F
+ * @author masayu
  */
 public class Uts {
 
@@ -14,7 +14,7 @@ public class Uts {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        AplikasiStudio aplikasi = new AplikasiStudio();
+        aplikasi.menuAplikasi();
     }
-    
 }
